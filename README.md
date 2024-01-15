@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Spotify Clone
 
-## Getting Started
+This is a Spotify Clone modeled after Spotify. It supports authentication functionalities such as logging in and subscribing to a Spotify premium plan. It handles user authentication using Supabase and subscription via Stripe. Users are allowed access to the app
+only after completing authentication.
 
-First, run the development server:
+This project mainly uses Typescript as the logical component to integrate song fetching and playing as well as to facilitate user subscription and signup. Hooks and actions are used in conjunction to provide the desired functionality of the components listed in the libraries above.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Test User Details
+
+A test user account has been provided for use.
+
+Email:
+```
+tornadosharkpacific@gmail.com
+```
+Password:
+```
+spotify
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to use
+Website: https://spotify-clone-sand-gamma.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can click 'Log in' on the upper right corner and enter the test user details or create your own account with a valid email address (A verification link will be sent to that email).
+Upon validation, the test user may play any song by clicking on it. For those who created their own account, they will be prompted to subscribe and upon clicking the 'Subscribe' button, they will be brought to a Stripe payment page. Enter '4242424242424242' for the credit card and random values for the other details. Then click Pay (no real money will be charged). Then they can play songs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Users can like songs to add them to a 'Liked Songs' playlist located on the home page. They can also search for songs on the left hand navigation bar. Users can also upload songs to the library (only in mp3 format) with a relevant title and image. Please refrain from uploading copyrighted songs!! 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
