@@ -22,7 +22,10 @@ spotify
 Website: https://spotify-clone-sand-gamma.vercel.app/
 
 You can click 'Log in' on the upper right corner and enter the test user details or create your own account with a valid email address (A verification link will be sent to that email).
-Upon validation, the test user may play any song by clicking on it. For those who created their own account, they will be prompted to subscribe and upon clicking the 'Subscribe' button, they will be brought to a Stripe payment page. Enter '4242424242424242' for the credit card and random values for the other details. Then click Pay (no real money will be charged). Then they can play songs.
+
+Upon validation, the test user may play any song by clicking on it. 
+
+For those who created their own account, they will be prompted to subscribe and upon clicking the 'Subscribe' button, they will be brought to a Stripe payment page. Enter '4242424242424242' for the credit card and random values for the other details. Then click Pay (no real money will be charged). Then they can play songs.
 
 Users can like songs to add them to a 'Liked Songs' playlist located on the home page. They can also search for songs on the left hand navigation bar. Users can also upload songs to the library (only in mp3 format) with a relevant title and image. Please refrain from uploading copyrighted songs!! 
 
